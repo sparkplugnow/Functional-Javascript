@@ -1,4 +1,4 @@
-/*With this first attempt, I was trying to make the time value a key, while every other content becomes it's array value, but the couldn't achieve that*/
+/*With this first attempt, I was trying to make the time value a key, while every other content becomes its array value, but the couldn't achieve that*/
 
 var transform= payload.reduce((obj, item) => {
      obj[item.time] = item
